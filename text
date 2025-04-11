@@ -1,4 +1,4 @@
-Wget -nv https://samsclass.info/127/proj/ED3a.c
-Wget -nv https://samsclass.info/127/proj/ED3a
-Chmod a+x ED3a
-./ED3a
+#!/usr/bin/python
+import sys
+length = int(sys.argv[1])
+print 'A' * length
