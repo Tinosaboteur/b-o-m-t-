@@ -1,4 +1,1 @@
-#!/usr/bin/python
-import sys
-length = int(sys.argv[1])
-print 'A' * length
+./ED3a $(./fuzzer 1000) ./ED3a $(./fuzzer 1010)
