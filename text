@@ -1,1 +1,4 @@
-(gdb) run $(python2 -c "shellcode='<your_shellcode>'; print '\x90'*52 + shellcode + 'B'*12 + 'C'*8 + '\xe0\xe0\xff\xff\xff\x7f\x00\x00'")
+Wget -nv https://samsclass.info/127/proj/ED3a.c
+Wget -nv https://samsclass.info/127/proj/ED3a
+Chmod a+x ED3a
+./ED3a
