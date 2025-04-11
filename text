@@ -1,1 +1,2 @@
-./ED3a $(./fuzzer 1000) ./ED3a $(./fuzzer 1010)
+break *0x08049241
+run $(./ex2)
